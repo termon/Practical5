@@ -25,7 +25,7 @@ public class HomeController : Controller
         // get data from Db
         
         var about = new AboutViewModel {
-            Title = "About Us",
+            Title = "About Us Modified",
             Message = "We are a consultancy company specialising in web applications development on the .NET platform.......",
             Formed = new DateTime(2020,1,10)
         };
